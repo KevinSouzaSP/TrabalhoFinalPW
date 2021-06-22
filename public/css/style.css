@@ -1,0 +1,27 @@
+/*nav*/
+.corfundo{background-color: #6C757D}
+/*fim nav*/
+
+/*serviços*/
+.descricao{text-align: justify;}
+.image{align-items: center;}
+.servicos img{margin-left: 13%;
+    align-items:center;}
+.servicos h3{text-align: center;}
+.servicos p{text-align: justify;}
+/*fim serviços*/
+
+/*cores botões*/
+.cores{background-color: #E6731C;}
+/*fim cores botões*/
+
+/*escrita na imagem*/
+.topoEsquerda{position:absolute;
+    top: 14%;
+    left: 13%;
+    text-align: left;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    color:white;
+}
+/*fim escrita na imagem*/
