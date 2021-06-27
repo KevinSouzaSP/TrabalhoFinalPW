@@ -1,27 +1,167 @@
 /*nav*/
-.corfundo{background-color: #6C757D}
+.corfundo {
+    background-color: #6C757D
+}
+
 /*fim nav*/
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 /*serviços*/
-.descricao{text-align: justify;}
-.image{align-items: center;}
-.servicos img{margin-left: 13%;
-    align-items:center;}
-.servicos h3{text-align: center;}
-.servicos p{text-align: justify;}
+.descricao {
+    text-align: justify;
+}
+
+.image {
+    align-items: center;
+}
+
+.servicos img {
+    margin-left: 13%;
+    align-items: center;
+}
+
+.servicos h3 {
+    text-align: center;
+}
+
+.servicos p {
+    text-align: justify;
+}
+
 /*fim serviços*/
 
 /*cores botões*/
-.cores{background-color: #E6731C;}
+.cores {
+    background-color: #E6731C;
+}
+
 /*fim cores botões*/
 
 /*escrita na imagem*/
-.topoEsquerda{position:absolute;
+.topoEsquerda {
+    position: absolute;
     top: 14%;
-    left: 13%;
+    left: 22%;
     text-align: left;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
-    color:white;
+    color: white;
 }
+
 /*fim escrita na imagem*/
+
+/* inicio lista*/
+ul {
+    list-style: none;
+}
+
+/* classe container*/
+
+.container {
+    max-width: 1170px;
+    // background-color: red;
+    margin: auto;
+}
+/* classe altera formulario */
+.container-form {
+    max-width: 1170px;
+    margin:0 auto;
+    padding: 5px;
+}
+
+/* Fim classe container*/
+
+/* inicio footer*/
+.footer {
+    background-color: #24262b;
+    padding: 35px 0;
+}
+
+.footer-col {
+    width: 15%;
+    padding: 0 25px;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-col h4 {
+    font-size: 13px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4: {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 70px;
+}
+
+/* efetua a distancia dos objetos */
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    /*background-color: rgba(255, 255, 255, 0.2);*/
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+/* Fim footer*/
+/* EDITA O TEXTO " FAÇA SUA SOLICITAÇÃO" */
+h1 {
+    color: black;
+    font-size: 30px;
+}
+/* EDITA O TEXTO " INSIRA UM COMENTARIO */
+h3{
+    color: black;
+    font-size: 16px;
+}
+
+/* EDITA BARRA EM BAIXO DE H1 */
+hr {
+    border: 1px solid green;
+    margin: auto;
+    width: 200px
+}
+
