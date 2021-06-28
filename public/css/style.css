@@ -46,10 +46,9 @@
 /*escrita na imagem*/
 .topoEsquerda {
     position: absolute;
-    top: 14%;
-    left: 22%;
+    top: 15%;
+    left: 17%;
     text-align: left;
-    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     color: white;
 }
@@ -160,7 +159,7 @@ h3{
 
 /* EDITA BARRA EM BAIXO DE H1 */
 hr {
-    border: 1px solid green;
+    border: 1px solid #045ba7;
     margin: auto;
     width: 200px
 }

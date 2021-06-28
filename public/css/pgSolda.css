@@ -105,3 +105,11 @@ p {
     margin-left: -20px
 }
 /* Conteudo fim */
+
+hr {
+    border: 1px solid #045ba7;
+    margin: auto;
+    width: 200px
+}
+
+
