@@ -24,4 +24,126 @@
     padding: 10px;
     color:white;
 }
+
+.botao2 {
+width: 173px;
+height: 48px;
+left: 650px;
+top: 645px;
+background: #E6731C;
+border-radius: 10px;
+border-color: #E6731C;
+}
+
+.botao {
+    width: 173px;
+    height: 48px;
+    left: 1022px;
+    top: 645px;
+    
+    background: rgba(196, 196, 196, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.53);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+}
+
+mt-10 {
+    margin-top: 10px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+   
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
 /*fim escrita na imagem*/
+/* inicio footer*/
+.footer {
+    background-color: #24262b;
+    padding: 35px 0;
+}
+
+.footer-col {
+    width: 15%;
+    padding: 0 25px;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-col h4 {
+    font-size: 13px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4: {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 70px;
+}
+
+/* efetua a distancia dos objetos */
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    /*background-color: rgba(255, 255, 255, 0.2);*/
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+/* Fim footer*/
